@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./bg_picture.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: rgb(182, 133, 42);
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: -15rem;
+
+}
+
+.container_contagem{
+    display: flex;
+}
+
+.numero_contagem{
+    font-size: 5rem;
+    margin:0 2rem;
+    line-height: 1;
+}   
+
+.container_elemento{
+    text-align: center;
+}
+
+span{
+    font-size: 1.2rem;
+}
